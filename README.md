@@ -1,5 +1,5 @@
 # 一句代码实现新特性
-> 使用方法
+> 使用方法,传入图片的名称的字符串
 ```
 
 NSArray* picNameArray = @[@"new_feature_1",@"new_feature_2",@"new_feature_3",@"new_feature_4"];
