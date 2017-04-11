@@ -1,13 +1,14 @@
 # 一句代码实现新特性
-> 使用方法,传入图片的名称的字符串
+> 使用方法,传入图片的名称数组就行
 ```
+导入头文件 #import "JJNewFeatureView.h"
 
 NSArray* picNameArray = @[@"new_feature_1",@"new_feature_2",@"new_feature_3",@"new_feature_4"];
 
 JJNewFeatureView* newFeatureView = [[JJNewFeatureView alloc]initWithPicNameArray:picNameArray];
 ```
 
-> 其他可以设置的
+> 其他可以设置的,但都预设了默认设置,可以不实现
 ```
 //翻页指示器距离屏幕底部的高度
 newFeatureView.pageControllBottom = 100;
