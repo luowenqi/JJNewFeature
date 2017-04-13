@@ -30,6 +30,9 @@
 @property(nonatomic , assign) CGFloat  pageControllBottom;
 
 
+/**
+指定的初始化方法
+ */
 -(instancetype)initWithPicNameArray:(NSArray*)picNameArray;
 
 @end
