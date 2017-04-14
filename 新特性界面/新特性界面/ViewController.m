@@ -27,7 +27,8 @@
     newFeatureView.frame = self.view.bounds;
     [self.view addSubview:newFeatureView];
     
-    newFeatureView.pageControllBottom = 300;
+    //新特性的pageControll距离底部的距离
+    newFeatureView.pageControllBottom = 100;
     
     //你的点赞,是我继续的动力,觉得好就请点赞鼓励我吧,项目链接https://github.com/luowenqi/JJNewFeature
     
